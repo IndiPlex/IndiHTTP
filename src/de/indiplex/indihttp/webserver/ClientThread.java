@@ -135,7 +135,7 @@ public class ClientThread extends Thread {
             String user = params.get("user");
             String pass = params.get("pass");
             if (user!=null && pass!=null) {
-                if (user.equalsIgnoreCase("Cartan12") && pass.equals("zebrahead")) {
+                if (user.equalsIgnoreCase("name") && pass.equals("passw")) {
                     httpd.getPerms().put(sessionId, true);
                 }
             }
