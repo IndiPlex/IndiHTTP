@@ -1,0 +1,6 @@
+name: IndiHTTP
+
+author: IndiPlex Team
+
+main: de.indiplex.indihttp.IHTTP
+version: 0.0.1
